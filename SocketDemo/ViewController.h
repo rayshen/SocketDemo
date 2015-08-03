@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AsyncSocket.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController{
+    AsyncSocket *asyncSocket;
+}
 @end
 

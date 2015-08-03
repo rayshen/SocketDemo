@@ -14,6 +14,7 @@
 		6486F5591B2A857400CE4568 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6486F5581B2A857400CE4568 /* Images.xcassets */; };
 		6486F55C1B2A857400CE4568 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6486F55A1B2A857400CE4568 /* LaunchScreen.xib */; };
 		6486F5681B2A857500CE4568 /* SocketDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6486F5671B2A857500CE4568 /* SocketDemoTests.m */; };
+		6486F5731B2A85D300CE4568 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6486F5721B2A85D300CE4568 /* AsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6486F5611B2A857400CE4568 /* SocketDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6486F5661B2A857500CE4568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6486F5671B2A857500CE4568 /* SocketDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketDemoTests.m; sourceTree = "<group>"; };
+		6486F5711B2A85D300CE4568 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		6486F5721B2A85D300CE4568 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				6486F54F1B2A857400CE4568 /* AppDelegate.h */,
 				6486F5501B2A857400CE4568 /* AppDelegate.m */,
+				6486F5711B2A85D300CE4568 /* AsyncSocket.h */,
+				6486F5721B2A85D300CE4568 /* AsyncSocket.m */,
 				6486F5521B2A857400CE4568 /* ViewController.h */,
 				6486F5531B2A857400CE4568 /* ViewController.m */,
 				6486F5551B2A857400CE4568 /* Main.storyboard */,
@@ -222,6 +227,7 @@
 				6486F5541B2A857400CE4568 /* ViewController.m in Sources */,
 				6486F5511B2A857400CE4568 /* AppDelegate.m in Sources */,
 				6486F54E1B2A857400CE4568 /* main.m in Sources */,
+				6486F5731B2A85D300CE4568 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
